@@ -5,23 +5,49 @@
     width: 30%;
     height: 100%;
     padding: 5px;
-    background-color: antiquewhite;
-    border-radius: 7px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #1e1e1e;
-}
-.MyUser{
-    display: flex;
-    width: 100%;
     background-color: aliceblue;
     border-radius: 7px;
     border-style: solid;
     border-width: 1px;
-    border-color: #1e1e1e;
+    border-color: gray;
+}
+.MyUser{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 7px;
+    /* border-style: solid; */
+    border-width: 1px;
+    border-color: gray;
     height: 160px;
     margin-bottom: 10px;
     padding: 4px;
+}
+
+.User{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 100%;
+    background-color: aliceblue;
+    /* border-radius: 7px; */
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: gray;
+    height: 170px;
+    margin-bottom: 10px;
+    padding: 4px;
+    padding-left: 7px;
+}
+.Users{
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
 }
 .MyMessages{
     display: flex;
@@ -29,9 +55,50 @@
     width: 100%;
     background-color: aliceblue;
     border-radius: 7px;
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 1px;
-    border-color: #1e1e1e;
-    height: 100%;
+    border-color: gray;
+    height: 90%;
     padding: 4px;
+}
+.Search{
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    background-color: #EDEDED;
+    margin: 5px;
+    border-radius: 15px;
+}
+.SearchInput{
+    background-color: #EDEDED;
+    border-style: none;
+    outline: none;
+}
+.MyUserInfo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.UserInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 100%;
+}
+.UserMassagesStats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.RedMassage{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
 }

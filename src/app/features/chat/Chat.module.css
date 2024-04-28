@@ -1,0 +1,124 @@
+.Chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    margin-left: 5px;
+    border-radius: 7px;
+}
+
+.Name{
+    font-size: 34px;
+    color: aliceblue;
+}
+.Profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    color: aliceblue;
+    background: #329A93;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+.MassageInput{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    border-style: none;
+    outline: none;
+}
+.ChatHistory{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    padding: 30px;
+    overflow-y: scroll;
+    background-color: azure;
+    border-radius: 7px;
+}
+.Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    color: #1e1e1e;;
+    background: aliceblue;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+.MassageLeft{
+    display: flex;
+    align-self: start;
+    align-items: end;
+    width: 70%;
+    padding: 5px;
+    font-size: 30px;
+    color: #1e1e1e;
+    
+    /* background: white; */
+    /* border-radius: 7px;
+    border-width: 1px; */
+}
+.MassageTextLeft{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    background: white;
+    border-radius: 15px 15px 0px 0px;
+}
+.TextLeft{
+    padding: 10px;
+    color: #1e1e1e;
+    font-size: 20px;
+}
+.MassageRight{
+    display: flex;
+    align-self: end;
+    align-items: end;
+    width: 70%;
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+.MassageTextRight{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    background: #329A93;
+    border-radius: 15px 15px 0px 0px;
+}
+.TextRight{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.TimeLeft{
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: azure;
+    border-radius: 15px 0px 0px 0px;
+}
+.TimeRight{
+    color: gray;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: azure;
+    border-radius: 0px 15px 0px 0px;
+}
