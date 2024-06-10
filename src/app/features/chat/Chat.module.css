@@ -34,6 +34,24 @@
     border-style: none;
     outline: none;
 }
+.MassageFieldLeft{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    align-items: end;
+    padding: 10px 0px 10px 0px;
+}
+.TextRightCorrection{
+    display: flex;
+    justify-content: end;
+}
+.MassageFieldRight{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: end;
+    padding: 10px 0px 10px 0px;
+}
 .ChatHistory{
     display: flex;
     flex-direction: column;
@@ -58,7 +76,7 @@
     border-width: 1px;
     border-color: gray;
 }
-.MassageLeft{
+/* .MassageLeft{
     display: flex;
     align-self: start;
     align-items: end;
@@ -69,18 +87,58 @@
     
     /* background: white; */
     /* border-radius: 7px;
-    border-width: 1px; */
-}
-.MassageTextLeft{
+    border-width: 1px;
+} */
+ /* .MassageLeft{
+    display: flex;
+    color: #1e1e1e;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 30px;
+ } */
+/* .MassageTextLeft{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 40%;
     height: 100%;
     background: white;
     border-radius: 15px 15px 0px 0px;
-}
+} */
+ .MassageTextLeft{
+    height: 100%;
+    background: white;
+    padding: 5px 0px 0px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+ }
+ .MassageTextRight{
+    height: 100%;
+    background: #329A93;
+    padding: 5px 0px 0px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
+ }
+ .MassageTextFieldRight{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    color: #1e1e1e;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 30px;
+ }
+ .MassageTextFieldLeft{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    color: #1e1e1e;
+    border-width: 1px;
+    padding: 5px;
+    font-size: 30px;
+ }
 .TextLeft{
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
     color: #1e1e1e;
     font-size: 20px;
 }
@@ -88,37 +146,44 @@
     display: flex;
     align-self: end;
     align-items: end;
+    justify-content: end;
     width: 70%;
     padding: 5px;
     font-size: 30px;
     color: white;
 }
-.MassageTextRight{
+/* .MassageTextRight{
     display: flex;
     flex-direction: column;
-    width: 90%;
     height: 100%;
     background: #329A93;
     border-radius: 15px 15px 0px 0px;
-}
+} */
 .TextRight{
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
     color: white;
     font-size: 20px;
 }
 .TimeLeft{
+    display: flex;
+    justify-content: start;
     color: gray;
     font-size: 12px;
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 5px;
     background-color: azure;
     border-radius: 15px 0px 0px 0px;
 }
 .TimeRight{
+    display: flex;
+    justify-content: end;
     color: gray;
     font-size: 12px;
     padding: 10px;
-    padding-left: 30px;
+    padding-right: 5px;
     background-color: azure;
     border-radius: 0px 15px 0px 0px;
 }

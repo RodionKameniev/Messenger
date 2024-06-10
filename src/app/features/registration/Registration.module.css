@@ -1,0 +1,12 @@
+.Registration{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: gainsboro;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}

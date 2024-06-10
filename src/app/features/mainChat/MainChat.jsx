@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import style from "./MainPage.module.css"
+import style from "./MainChat.module.css"
 import { Link } from 'react-router-dom';
 import {
 
-} from './mainPageSlice';
+} from './mainChatSlice';
 import Menu from '../navigation/Menu';
 import Chat from '../chat/Chat';
-
- function MainPage() {
+function MainChat(){
     const dispatch = useDispatch();
     return(
         <div className='Page'>
@@ -19,4 +18,4 @@ import Chat from '../chat/Chat';
         </div>
     )
 }
-export default MainPage;
+export default MainChat;

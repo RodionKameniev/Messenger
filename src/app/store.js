@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import mainPageReducer from './features/mainPage/mainPageSlice';
-
+import mainChatReducer from './features/mainChat/mainChatSlice';
+import  registrationReducer from './features/registration/registrationSlice';
 export const store = configureStore({
   reducer: {
-    mainPage: mainPageReducer,
+    mainChat: mainChatReducer,
+    registration: registrationReducer,
   },
 });

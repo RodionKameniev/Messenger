@@ -16,6 +16,7 @@ body{
   align-self: center;
   width: 90%;
   /* margin: 20px; */
+  justify-content: center;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -26,6 +27,11 @@ body{
 }
 .SCWhite{
   color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+}
+.SCGreen{
+  color: #329A93;
   font-size: 16px;
   font-weight: 600;
 }
@@ -60,4 +66,31 @@ body{
 }
 .SmallText{
   font-size: 15px;
+}
+.SButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: aliceblue!important;
+  margin: 10px;
+  background-color: #329A93;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  padding: 6px;
+}
+.SButton:active{
+  transition: all 0.5;
+  background-color: #20625e;
+  border-width: 2px;
+  padding: 5px;
+}
+.Toast{
+  display: inline;
+  position: fixed;
+  left: 80%;
+  top: 110%;
+  transition: all, 1s;
+  
 }
