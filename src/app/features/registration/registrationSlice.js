@@ -94,7 +94,7 @@ export const registrationSlice = createSlice({
                 }
                 if (action.payload.status == "User was Registered") {
                     state.User=action.payload.item;
-                    localStorage.setItem("User", action.payload.item);
+                    localStorage.setItem("User", JSON.stringify(action.payload.item));
                     state.RegStatus = "You have been registered!";
                 }
             })
@@ -117,7 +117,7 @@ export const registrationSlice = createSlice({
                 }
                 if (action.payload.status == "Successful LogIn!") {
                     state.User=action.payload.item;
-                    localStorage.setItem("User", action.payload.item);
+                    localStorage.setItem("User", JSON.stringify(action.payload.item));
                     state.LogStatus = "Successful LogIn!";
                     console.log("log+: "+state.LogStatus)
                 }

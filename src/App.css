@@ -6,10 +6,22 @@
   height: 100vh;
   background-color: whitesmoke;
 }
+.PageScroble{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+}
 body{
   background-color: aliceblue;
   padding-left: 10px;
   padding-right: 10px;
+}
+.LinkCorrection{
+  text-decoration: none;
 }
 .Window{
   display: flex;
@@ -22,7 +34,7 @@ body{
   padding-right: 10px;
   
   height: 100vh;
-  background-color: #EDEDED;
+  background-color: rgb(232, 242, 247);
   border-radius: 20px;
 }
 .SCWhite{
@@ -82,10 +94,20 @@ body{
 }
 .SButton:active{
   transition: all 0.5;
-  background-color: #20625e;
+  background-color: #20625e!important;
+  border-color: #20625e!important;
   border-width: 2px;
   padding: 5px;
 }
+
+.SButton:hover{
+  transition: all 0.5;
+  background-color: #1c726c;
+  border-color: #20625e;
+  border-width: 2px;
+  padding: 5px;
+}
+
 .Toast{
   display: inline;
   position: fixed;

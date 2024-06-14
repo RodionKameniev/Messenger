@@ -1,0 +1,39 @@
+.Page{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    /* background-color: firebrick; */
+    flex-direction: column;
+    align-items: center;
+}
+.MenuBar{
+    display: flex;
+    width: 60%;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    margin: 0px 0px 30px 0px;
+}
+.Slide{
+    display: flex;
+    width: 80%;
+    background-color: rgb(232, 242, 247);
+    margin: 10px 0px 10px 0px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.SlideInfo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.MainBar{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}

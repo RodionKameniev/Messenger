@@ -80,7 +80,7 @@ function Registration() {
         if (RegStatus == "You have been registered!" || LogStatus=="Successful LogIn!") {
             return <button onClick={() => {
                 setTimeout(() => {
-                    Navigate("/");
+                    Navigate("/chat");
                 }, 250);
             }} type="button" className="btn btn-primary SCGreen SButton" data-bs-dismiss="modal">To Chat</button>
         }
