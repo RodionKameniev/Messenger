@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import {
     setUser,
 } from './mainChatSlice';
-import Menu from '../mainPage/navigation/Menu';
-import Chat from '../mainPage/chat/Chat';
+import Menu from '../navigation/Menu';
+import Chat from '../chat/Chat';
 function MainChat(){
     const dispatch = useDispatch();
     useEffect(()=>{
